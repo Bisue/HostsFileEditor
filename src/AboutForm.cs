@@ -35,9 +35,9 @@ namespace HostsFileEditor
         {
             this.InitializeComponent();
 
-            this.Text = string.Format("About {0}", AssemblyTitle);
+            this.Text = string.Format("정보 {0}", AssemblyTitle);
             this.labelProductName.Text = AssemblyProduct;
-            this.labelVersion.Text = string.Format("Version {0}", AssemblyVersion);
+            this.labelVersion.Text = string.Format("버전 {0}", AssemblyVersion);
             this.labelCopyright.Text = AssemblyCopyright;
             this.textBoxDescription.Text = AssemblyDescription;
         }

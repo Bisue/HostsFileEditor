@@ -117,23 +117,23 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="statusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="statusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>381, 17</value>
-  </metadata>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="statusStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="labelLineCount.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 17</value>
   </data>
   <data name="labelLineCount.Text" xml:space="preserve">
-    <value>Line Count:</value>
+    <value>전체 줄 개수</value>
   </data>
-  <metadata name="bindingSourceHostFile.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="bindingSourceHostFile.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>17, 56</value>
-  </metadata>
+  </data>
   <data name="labelLineCountNumber.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 17</value>
   </data>
@@ -144,7 +144,7 @@
     <value>82, 17</value>
   </data>
   <data name="labelHostEntries.Text" xml:space="preserve">
-    <value>   Host Entries:</value>
+    <value>활성 호스트 개수</value>
   </data>
   <data name="labelHostEntriesCount.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 17</value>
@@ -163,7 +163,7 @@
     <value>0</value>
   </data>
   <data name="statusStrip.Text" xml:space="preserve">
-    <value>Status Strip</value>
+    <value>스테이서스 스트립</value>
   </data>
   <data name="&gt;&gt;statusStrip.Name" xml:space="preserve">
     <value>statusStrip</value>
@@ -195,11 +195,11 @@
   <data name="splitContainer.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <metadata name="columnValid.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="columnValid.UserAddedColumn" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
+  </data>
   <data name="columnValid.HeaderText" xml:space="preserve">
-    <value>Valid</value>
+    <value>Valid - 유효</value>
   </data>
   <data name="columnValid.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -208,47 +208,47 @@
     <value />
   </data>
   <data name="columnIpAddress.HeaderText" xml:space="preserve">
-    <value>IP Address</value>
+    <value>IP 주소</value>
   </data>
-  <metadata name="columnHostnames.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="columnHostnames.UserAddedColumn" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
+  </data>
   <data name="columnHostnames.HeaderText" xml:space="preserve">
-    <value>Host Names</value>
+    <value>호스트(도메인)</value>
   </data>
-  <metadata name="columnComment.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="columnComment.UserAddedColumn" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
+  </data>
   <data name="columnComment.HeaderText" xml:space="preserve">
-    <value>Comment</value>
+    <value>주석</value>
   </data>
   <data name="columnUnparsedText.HeaderText" xml:space="preserve">
-    <value>Unparsed Text</value>
+    <value>언파스트 텍스트</value>
   </data>
   <data name="columnUnparsedText.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <metadata name="columnFiller.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="columnFiller.UserAddedColumn" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
+  </data>
   <data name="columnFiller.HeaderText" xml:space="preserve">
     <value />
   </data>
   <data name="columnFiller.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <metadata name="contextMenuGrid.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="contextMenuGrid.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>325, 56</value>
-  </metadata>
-  <metadata name="toolStripSeparator22.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="toolStripSeparator22.GenerateMember" type="System.Boolean, mscorlib">
     <value>False</value>
-  </metadata>
-  <metadata name="toolStripSeparator23.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="toolStripSeparator23.GenerateMember" type="System.Boolean, mscorlib">
     <value>False</value>
-  </metadata>
-  <metadata name="toolStripSeparator25.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="toolStripSeparator25.GenerateMember" type="System.Boolean, mscorlib">
     <value>False</value>
-  </metadata>
+  </data>
   <data name="contextMenuGrid.Size" type="System.Drawing.Size, System.Drawing">
     <value>227, 270</value>
   </data>
@@ -258,9 +258,9 @@
   <data name="&gt;&gt;contextMenuGrid.Type" xml:space="preserve">
     <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <metadata name="bindingSourceView.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="bindingSourceView.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>152, 17</value>
-  </metadata>
+  </data>
   <data name="dataGridViewHostsEntries.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -300,9 +300,9 @@
   <data name="&gt;&gt;splitContainer.Panel1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="bindingSourceArchive.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="bindingSourceArchive.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>690, 56</value>
-  </metadata>
+  </data>
   <data name="dataGridViewArchive.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -327,15 +327,15 @@
   <data name="&gt;&gt;dataGridViewArchive.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="toolStripArchive.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="toolStripArchive.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>472, 56</value>
-  </metadata>
-  <metadata name="toolStripLabel1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="toolStripLabel1.GenerateMember" type="System.Boolean, mscorlib">
     <value>False</value>
-  </metadata>
-  <metadata name="toolStripSeparator27.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="toolStripSeparator27.GenerateMember" type="System.Boolean, mscorlib">
     <value>False</value>
-  </metadata>
+  </data>
   <data name="toolStripArchive.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -346,7 +346,7 @@
     <value>0</value>
   </data>
   <data name="toolStripArchive.Text" xml:space="preserve">
-    <value>Archive Tool Strip</value>
+    <value>아카이브 툴 스트립</value>
   </data>
   <data name="&gt;&gt;toolStripArchive.Name" xml:space="preserve">
     <value>toolStripArchive</value>
@@ -447,80 +447,80 @@
   <data name="toolStripContainer.Text" xml:space="preserve">
     <value>toolStripContainer1</value>
   </data>
-  <metadata name="menuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="menuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>17, 17</value>
-  </metadata>
+  </data>
   <data name="menuStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
   </data>
-  <metadata name="toolStripSeparator18.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="toolStripSeparator18.GenerateMember" type="System.Boolean, mscorlib">
     <value>False</value>
-  </metadata>
-  <metadata name="toolStripSeparator14.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="toolStripSeparator14.GenerateMember" type="System.Boolean, mscorlib">
     <value>False</value>
-  </metadata>
-  <metadata name="toolStripSeparator13.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="toolStripSeparator13.GenerateMember" type="System.Boolean, mscorlib">
     <value>False</value>
-  </metadata>
-  <metadata name="toolStripSeparator12.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="toolStripSeparator12.GenerateMember" type="System.Boolean, mscorlib">
     <value>False</value>
-  </metadata>
+  </data>
   <data name="menuFile.Size" type="System.Drawing.Size, System.Drawing">
     <value>37, 20</value>
   </data>
   <data name="menuFile.Text" xml:space="preserve">
-    <value>&amp;File</value>
+    <value>파일</value>
   </data>
-  <metadata name="toolStripSeparator28.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="toolStripSeparator28.GenerateMember" type="System.Boolean, mscorlib">
     <value>False</value>
-  </metadata>
-  <metadata name="toolStripSeparator4.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="toolStripSeparator4.GenerateMember" type="System.Boolean, mscorlib">
     <value>False</value>
-  </metadata>
-  <metadata name="toolStripSeparator5.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="toolStripSeparator5.GenerateMember" type="System.Boolean, mscorlib">
     <value>False</value>
-  </metadata>
-  <metadata name="toolStripSeparator6.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="toolStripSeparator6.GenerateMember" type="System.Boolean, mscorlib">
     <value>False</value>
-  </metadata>
-  <metadata name="toolStripSeparator24.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="toolStripSeparator24.GenerateMember" type="System.Boolean, mscorlib">
     <value>False</value>
-  </metadata>
+  </data>
   <data name="editToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>39, 20</value>
   </data>
   <data name="editToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Edit</value>
+    <value>수정</value>
   </data>
-  <metadata name="toolStripSeparator9.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="toolStripSeparator9.GenerateMember" type="System.Boolean, mscorlib">
     <value>False</value>
-  </metadata>
-  <metadata name="menuFilter.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="menuFilter.GenerateMember" type="System.Boolean, mscorlib">
     <value>False</value>
-  </metadata>
+  </data>
   <data name="viewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 20</value>
   </data>
   <data name="viewToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;View</value>
+    <value>보기</value>
   </data>
   <data name="menuTools.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 20</value>
   </data>
   <data name="menuTools.Text" xml:space="preserve">
-    <value>&amp;Tools</value>
+    <value>도구</value>
   </data>
   <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>152, 22</value>
   </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;About</value>
+    <value>정보</value>
   </data>
   <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 20</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Help</value>
+    <value>도움말</value>
   </data>
   <data name="menuStrip.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -532,7 +532,7 @@
     <value>0</value>
   </data>
   <data name="menuStrip.Text" xml:space="preserve">
-    <value>Menu Strip</value>
+    <value>메뉴 스트립</value>
   </data>
   <data name="&gt;&gt;menuStrip.Name" xml:space="preserve">
     <value>menuStrip</value>
@@ -546,24 +546,24 @@
   <data name="&gt;&gt;menuStrip.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="toolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="toolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>283, 17</value>
-  </metadata>
-  <metadata name="toolStripSeparator15.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="toolStripSeparator15.GenerateMember" type="System.Boolean, mscorlib">
     <value>False</value>
-  </metadata>
-  <metadata name="toolStripSeparator26.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="toolStripSeparator26.GenerateMember" type="System.Boolean, mscorlib">
     <value>False</value>
-  </metadata>
-  <metadata name="toolStripSeparator16.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="toolStripSeparator16.GenerateMember" type="System.Boolean, mscorlib">
     <value>False</value>
-  </metadata>
-  <metadata name="toolStripSeparator17.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="toolStripSeparator17.GenerateMember" type="System.Boolean, mscorlib">
     <value>False</value>
-  </metadata>
-  <metadata name="toolStripSeparator19.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="toolStripSeparator19.GenerateMember" type="System.Boolean, mscorlib">
     <value>False</value>
-  </metadata>
+  </data>
   <data name="toolStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -577,7 +577,7 @@
     <value>1</value>
   </data>
   <data name="toolStrip.Text" xml:space="preserve">
-    <value>Tool Strip</value>
+    <value>도구 스트립</value>
   </data>
   <data name="&gt;&gt;toolStrip.Name" xml:space="preserve">
     <value>toolStrip</value>
@@ -615,9 +615,6 @@
   <data name="&gt;&gt;toolStripContainer.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <metadata name="bindingSourceHostFile.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 56</value>
-  </metadata>
   <data name="menuContextCut.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+X</value>
   </data>
@@ -625,7 +622,7 @@
     <value>226, 22</value>
   </data>
   <data name="menuContextCut.Text" xml:space="preserve">
-    <value>Cu&amp;t</value>
+    <value>잘라내기</value>
   </data>
   <data name="menuContextCopy.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+C</value>
@@ -634,7 +631,7 @@
     <value>226, 22</value>
   </data>
   <data name="menuContextCopy.Text" xml:space="preserve">
-    <value>&amp;Copy</value>
+    <value>복사</value>
   </data>
   <data name="menuContextPaste.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+V</value>
@@ -643,11 +640,8 @@
     <value>226, 22</value>
   </data>
   <data name="menuContextPaste.Text" xml:space="preserve">
-    <value>&amp;Paste</value>
+    <value>붙여넣기</value>
   </data>
-  <metadata name="toolStripSeparator22.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
   <data name="toolStripSeparator22.Size" type="System.Drawing.Size, System.Drawing">
     <value>223, 6</value>
   </data>
@@ -658,7 +652,7 @@
     <value>226, 22</value>
   </data>
   <data name="menuContextDelete.Text" xml:space="preserve">
-    <value>Delete</value>
+    <value>삭제</value>
   </data>
   <data name="menuContextDuplicate.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+D</value>
@@ -667,11 +661,8 @@
     <value>226, 22</value>
   </data>
   <data name="menuContextDuplicate.Text" xml:space="preserve">
-    <value>Duplicate</value>
+    <value>복제</value>
   </data>
-  <metadata name="toolStripSeparator23.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
   <data name="toolStripSeparator23.Size" type="System.Drawing.Size, System.Drawing">
     <value>223, 6</value>
   </data>
@@ -682,7 +673,7 @@
     <value>226, 22</value>
   </data>
   <data name="menuContextMoveUp.Text" xml:space="preserve">
-    <value>Move Up</value>
+    <value>위로 올리기</value>
   </data>
   <data name="menuContextMoveDown.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Alt+Down</value>
@@ -691,11 +682,8 @@
     <value>226, 22</value>
   </data>
   <data name="menuContextMoveDown.Text" xml:space="preserve">
-    <value>Move Down</value>
+    <value>아래로 내리기</value>
   </data>
-  <metadata name="toolStripSeparator25.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
   <data name="toolStripSeparator25.Size" type="System.Drawing.Size, System.Drawing">
     <value>223, 6</value>
   </data>
@@ -706,7 +694,7 @@
     <value>226, 22</value>
   </data>
   <data name="menuContextInsertAbove.Text" xml:space="preserve">
-    <value>Insert Above</value>
+    <value>위에 삽입</value>
   </data>
   <data name="menuContextInsertBelow.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+Alt+Down</value>
@@ -715,7 +703,7 @@
     <value>226, 22</value>
   </data>
   <data name="menuContextInsertBelow.Text" xml:space="preserve">
-    <value>Insert Below</value>
+    <value>아래에 삽입</value>
   </data>
   <data name="toolStripSeparator31.Size" type="System.Drawing.Size, System.Drawing">
     <value>223, 6</value>
@@ -733,7 +721,7 @@
     <value>226, 22</value>
   </data>
   <data name="contextMenuCheck.Text" xml:space="preserve">
-    <value>Check</value>
+    <value>선택</value>
   </data>
   <data name="contextMenuUncheck.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Fuchsia</value>
@@ -742,26 +730,17 @@
     <value>226, 22</value>
   </data>
   <data name="contextMenuUncheck.Text" xml:space="preserve">
-    <value>Uncheck</value>
+    <value>선택해제</value>
   </data>
   <data name="fileNameDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
-    <value>Name</value>
+    <value>이름</value>
   </data>
-  <metadata name="bindingSourceArchive.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>690, 56</value>
-  </metadata>
-  <metadata name="toolStripLabel1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
   <data name="toolStripLabel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 22</value>
   </data>
   <data name="toolStripLabel1.Text" xml:space="preserve">
-    <value>Archive</value>
+    <value>아카이브</value>
   </data>
-  <metadata name="toolStripSeparator27.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
   <data name="toolStripSeparator27.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 25</value>
   </data>
@@ -772,7 +751,7 @@
     <value>23, 22</value>
   </data>
   <data name="buttonDeleteArchive.Text" xml:space="preserve">
-    <value>Delete Selected Archive</value>
+    <value>선택된 아카이브 삭제</value>
   </data>
   <data name="buttonLoadArchive.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
@@ -781,7 +760,7 @@
     <value>23, 22</value>
   </data>
   <data name="buttonLoadArchive.Text" xml:space="preserve">
-    <value>Load Selected Archive</value>
+    <value>선택된 아카이브 로드</value>
   </data>
   <data name="menuSave.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+S</value>
@@ -790,17 +769,14 @@
     <value>166, 22</value>
   </data>
   <data name="menuSave.Text" xml:space="preserve">
-    <value>Save</value>
+    <value>저장</value>
   </data>
   <data name="menuSaveAs.Size" type="System.Drawing.Size, System.Drawing">
     <value>166, 22</value>
   </data>
   <data name="menuSaveAs.Text" xml:space="preserve">
-    <value>Save &amp;As...</value>
+    <value>다른 이름으로 저장</value>
   </data>
-  <metadata name="toolStripSeparator18.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
   <data name="toolStripSeparator18.Size" type="System.Drawing.Size, System.Drawing">
     <value>163, 6</value>
   </data>
@@ -808,11 +784,8 @@
     <value>166, 22</value>
   </data>
   <data name="menuArchive.Text" xml:space="preserve">
-    <value>Archi&amp;ve...</value>
+    <value>아카이브</value>
   </data>
-  <metadata name="toolStripSeparator14.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
   <data name="toolStripSeparator14.Size" type="System.Drawing.Size, System.Drawing">
     <value>163, 6</value>
   </data>
@@ -820,17 +793,14 @@
     <value>166, 22</value>
   </data>
   <data name="menuRestoreDefaults.Text" xml:space="preserve">
-    <value>&amp;Restore Default</value>
+    <value>기본값 복원</value>
   </data>
   <data name="menuDisable.Size" type="System.Drawing.Size, System.Drawing">
     <value>166, 22</value>
   </data>
   <data name="menuDisable.Text" xml:space="preserve">
-    <value>&amp;Disable Hosts File</value>
+    <value>호스트 파일 비활성화</value>
   </data>
-  <metadata name="toolStripSeparator13.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
   <data name="toolStripSeparator13.Size" type="System.Drawing.Size, System.Drawing">
     <value>163, 6</value>
   </data>
@@ -838,11 +808,8 @@
     <value>166, 22</value>
   </data>
   <data name="menuImport.Text" xml:space="preserve">
-    <value>&amp;Import...</value>
+    <value>가져오기</value>
   </data>
-  <metadata name="toolStripSeparator12.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
   <data name="toolStripSeparator12.Size" type="System.Drawing.Size, System.Drawing">
     <value>163, 6</value>
   </data>
@@ -853,7 +820,7 @@
     <value>166, 22</value>
   </data>
   <data name="menuExit.Text" xml:space="preserve">
-    <value>E&amp;xit</value>
+    <value>나가기</value>
   </data>
   <data name="menuRefresh.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
@@ -865,11 +832,8 @@
     <value>226, 22</value>
   </data>
   <data name="menuRefresh.Text" xml:space="preserve">
-    <value>&amp;Refresh</value>
+    <value>새로고침</value>
   </data>
-  <metadata name="toolStripSeparator28.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
   <data name="toolStripSeparator28.Size" type="System.Drawing.Size, System.Drawing">
     <value>223, 6</value>
   </data>
@@ -880,7 +844,7 @@
     <value>226, 22</value>
   </data>
   <data name="menuUndo.Text" xml:space="preserve">
-    <value>&amp;Undo</value>
+    <value>되돌리기</value>
   </data>
   <data name="menuRedo.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+Y</value>
@@ -889,11 +853,8 @@
     <value>226, 22</value>
   </data>
   <data name="menuRedo.Text" xml:space="preserve">
-    <value>&amp;Redo</value>
+    <value>다시실행</value>
   </data>
-  <metadata name="toolStripSeparator4.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
   <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
     <value>223, 6</value>
   </data>
@@ -904,7 +865,7 @@
     <value>226, 22</value>
   </data>
   <data name="menuCut.Text" xml:space="preserve">
-    <value>Cu&amp;t</value>
+    <value>잘라내기</value>
   </data>
   <data name="menuCopy.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+C</value>
@@ -913,7 +874,7 @@
     <value>226, 22</value>
   </data>
   <data name="menuCopy.Text" xml:space="preserve">
-    <value>&amp;Copy</value>
+    <value>복사</value>
   </data>
   <data name="menuPaste.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+V</value>
@@ -922,11 +883,8 @@
     <value>226, 22</value>
   </data>
   <data name="menuPaste.Text" xml:space="preserve">
-    <value>&amp;Paste</value>
+    <value>붙여넣기</value>
   </data>
-  <metadata name="toolStripSeparator5.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
   <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
     <value>223, 6</value>
   </data>
@@ -937,7 +895,7 @@
     <value>226, 22</value>
   </data>
   <data name="menuDelete.Text" xml:space="preserve">
-    <value>&amp;Delete</value>
+    <value>삭제</value>
   </data>
   <data name="menuDuplicate.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+D</value>
@@ -946,11 +904,8 @@
     <value>226, 22</value>
   </data>
   <data name="menuDuplicate.Text" xml:space="preserve">
-    <value>&amp;Duplicate</value>
+    <value>복제</value>
   </data>
-  <metadata name="toolStripSeparator6.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
   <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
     <value>223, 6</value>
   </data>
@@ -961,7 +916,7 @@
     <value>226, 22</value>
   </data>
   <data name="menuMoveUp.Text" xml:space="preserve">
-    <value>&amp;Move Up</value>
+    <value>위로 올리기</value>
   </data>
   <data name="menuMoveDown.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Alt+Down</value>
@@ -970,11 +925,8 @@
     <value>226, 22</value>
   </data>
   <data name="menuMoveDown.Text" xml:space="preserve">
-    <value>Move &amp;Down</value>
+    <value>아래로 내리기</value>
   </data>
-  <metadata name="toolStripSeparator24.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
   <data name="toolStripSeparator24.Size" type="System.Drawing.Size, System.Drawing">
     <value>223, 6</value>
   </data>
@@ -985,7 +937,7 @@
     <value>226, 22</value>
   </data>
   <data name="insertRowAboveToolStripMenuItem.Text" xml:space="preserve">
-    <value>Insert &amp;Above</value>
+    <value>위에 추가</value>
   </data>
   <data name="insertRowBelowToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+Alt+Down</value>
@@ -994,7 +946,7 @@
     <value>226, 22</value>
   </data>
   <data name="insertRowBelowToolStripMenuItem.Text" xml:space="preserve">
-    <value>Insert &amp;Below</value>
+    <value>아래에 추가</value>
   </data>
   <data name="toolStripSeparator30.Size" type="System.Drawing.Size, System.Drawing">
     <value>223, 6</value>
@@ -1006,7 +958,7 @@
     <value>226, 22</value>
   </data>
   <data name="menuCheck.Text" xml:space="preserve">
-    <value>Check</value>
+    <value>선택</value>
   </data>
   <data name="menuUncheck.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Fuchsia</value>
@@ -1015,40 +967,34 @@
     <value>226, 22</value>
   </data>
   <data name="menuUncheck.Text" xml:space="preserve">
-    <value>Uncheck</value>
+    <value>선택해제</value>
   </data>
   <data name="menuViewArchive.Size" type="System.Drawing.Size, System.Drawing">
     <value>141, 22</value>
   </data>
   <data name="menuViewArchive.Text" xml:space="preserve">
-    <value>&amp;Archive</value>
+    <value>아카이브</value>
   </data>
-  <metadata name="toolStripSeparator9.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
   <data name="toolStripSeparator9.Size" type="System.Drawing.Size, System.Drawing">
     <value>138, 6</value>
   </data>
-  <metadata name="menuFilter.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
   <data name="menuFilter.Size" type="System.Drawing.Size, System.Drawing">
     <value>141, 22</value>
   </data>
   <data name="menuFilter.Text" xml:space="preserve">
-    <value>&amp;Filter</value>
+    <value>필터</value>
   </data>
   <data name="menuFilterComments.Size" type="System.Drawing.Size, System.Drawing">
     <value>186, 22</value>
   </data>
   <data name="menuFilterComments.Text" xml:space="preserve">
-    <value>&amp;Comment Only Lines</value>
+    <value>텍스트 주석 안보이기</value>
   </data>
   <data name="menuFilterDisabled.Size" type="System.Drawing.Size, System.Drawing">
     <value>186, 22</value>
   </data>
   <data name="menuFilterDisabled.Text" xml:space="preserve">
-    <value>&amp;Disabled</value>
+    <value>비활성화된 호스트 안보이기</value>
   </data>
   <data name="toolStripSeparator29.Size" type="System.Drawing.Size, System.Drawing">
     <value>138, 6</value>
@@ -1057,7 +1003,7 @@
     <value>141, 22</value>
   </data>
   <data name="menuRemoveSort.Text" xml:space="preserve">
-    <value>Remove Sort</value>
+    <value>정렬 제거</value>
   </data>
   <data name="menuPingIPs.Size" type="System.Drawing.Size, System.Drawing">
     <value>183, 22</value>
@@ -1069,7 +1015,7 @@
     <value>183, 22</value>
   </data>
   <data name="menuRemoveDefaultText.Text" xml:space="preserve">
-    <value>&amp;Remove Default Text</value>
+    <value>기본 텍스트 삭제</value>
   </data>
   <data name="buttonSave.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
@@ -1078,11 +1024,8 @@
     <value>51, 22</value>
   </data>
   <data name="buttonSave.Text" xml:space="preserve">
-    <value>Save</value>
+    <value>저장</value>
   </data>
-  <metadata name="toolStripSeparator15.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
   <data name="toolStripSeparator15.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 25</value>
   </data>
@@ -1093,11 +1036,8 @@
     <value>66, 22</value>
   </data>
   <data name="buttonRefresh.Text" xml:space="preserve">
-    <value>Refresh</value>
+    <value>새로고침</value>
   </data>
-  <metadata name="toolStripSeparator26.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
   <data name="toolStripSeparator26.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 25</value>
   </data>
@@ -1108,11 +1048,8 @@
     <value>119, 22</value>
   </data>
   <data name="buttonDisable.Text" xml:space="preserve">
-    <value>Disable Hosts File</value>
+    <value>호스트 파일 비활성화</value>
   </data>
-  <metadata name="toolStripSeparator16.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
   <data name="toolStripSeparator16.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 25</value>
   </data>
@@ -1123,7 +1060,7 @@
     <value>67, 22</value>
   </data>
   <data name="buttonArchive.Text" xml:space="preserve">
-    <value>Archive</value>
+    <value>아카이브</value>
   </data>
   <data name="buttonViewArchive.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
@@ -1132,11 +1069,8 @@
     <value>95, 22</value>
   </data>
   <data name="buttonViewArchive.Text" xml:space="preserve">
-    <value>View Archive</value>
+    <value>아카이브 보기</value>
   </data>
-  <metadata name="toolStripSeparator17.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
   <data name="toolStripSeparator17.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 25</value>
   </data>
@@ -1147,44 +1081,41 @@
     <value>49, 22</value>
   </data>
   <data name="toolStripDropDownButton1.Text" xml:space="preserve">
-    <value>Filter</value>
+    <value>필터</value>
   </data>
   <data name="buttonFilterComment.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 22</value>
   </data>
   <data name="buttonFilterComment.Text" xml:space="preserve">
-    <value>Filter Comment Only Lines</value>
+    <value>텍스트 주석 안보이기</value>
   </data>
   <data name="buttonFilterDisabled.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 22</value>
   </data>
   <data name="buttonFilterDisabled.Text" xml:space="preserve">
-    <value>Filter Disabled</value>
+    <value>비활성화된 호스트 안보이기</value>
   </data>
   <data name="textFilter.Size" type="System.Drawing.Size, System.Drawing">
     <value>117, 25</value>
   </data>
-  <metadata name="toolStripSeparator19.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
   <data name="toolStripSeparator19.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 25</value>
   </data>
-  <metadata name="toolStripSeparator21.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="toolStripSeparator21.GenerateMember" type="System.Boolean, mscorlib">
     <value>False</value>
-  </metadata>
+  </data>
   <data name="toolStripSeparator21.Size" type="System.Drawing.Size, System.Drawing">
     <value>163, 6</value>
   </data>
-  <metadata name="toolStripSeparator20.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="toolStripSeparator20.GenerateMember" type="System.Boolean, mscorlib">
     <value>False</value>
-  </metadata>
+  </data>
   <data name="toolStripSeparator20.Size" type="System.Drawing.Size, System.Drawing">
     <value>163, 6</value>
   </data>
-  <metadata name="toolStripSeparator1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="toolStripSeparator1.GenerateMember" type="System.Boolean, mscorlib">
     <value>False</value>
-  </metadata>
+  </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
     <value>158, 6</value>
   </data>
@@ -1223,17 +1154,17 @@
   </data>
   <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIISURBVDhPpZP7S1NxGMbPPxKaXVUkMEq8IpKUCoY/hGgI
-        ymqkDYYXcCjDZOANURSjCNGFQUTsl4GXVMxKk62YU4fXQpaIlygHQxBRH8/zwvyaIAYe+HLgnPN8nue9
-        HA3nvDTq63oW/jm13XOwvPTB3DYFY5MH+bXfcN8ygfTSMSSXfESicQDxBqdYHwH29g9w2tnZ3UcguIvN
-        rR3417exuBJE5N1n/wfwLgXEOc38Bc6xNRHb+/y4nm49G0Bnit2zf9H6bkliE/jKuYxrd6oVgDWfjB+K
-        TWeKMyrGEVfowITvD9re/9ABVQrAhh0HHK+ZselMMaN/mvwtDb+aVqkA7HYIwIj3ysfluPTorJnP6Ezx
-        oHsD1s5ZXEktUwCOioB5f1CEPR9+wTG6iuiserTo8dkwng7HT/R+XUPF8xlcTjErAOdMcW6NW8STiwG8
-        7vej8oUPN/PsEv3t8Ao0TZP3T1u8uJRkUgAuSYHtO97oLxmXd5t9Ho8aPTK+GzntqNfrLm2fFoihwYOI
-        xGIF4KjoGBLzY1OrF9k6OOFxnwDC4wxIMX1G0pMhgVyMNyoA13PAtS7OrJk1PrC69LUdQWxuF6IybHrX
-        LRI7JrtZdoDAo1XmbjMyD+tjSXxGcXRmnYg5ttD9QuxDhN0uUgDOmbvNTpPOJaGAo2K36cyaGZvOFIfd
-        KlSA8/zRh9ABIDUG+1JpAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
+        RUkUEZ0YRMS+DDI70MkTmzJnDc8iU8QT2mAEItnle90wHwTDyBduXnie5/rd133Q4ZKfAJqHFs9E08A8
+        zD1emDpmYXjqRlnTFIrMk8iuGkNaxWekGEaQrHecBfw+/vPXODw6hj9whN2fh/Bt/8LSRgA3cxr/DeBZ
+        9kvmTNMoHGNbIrYN+3Aj23IxgJkpds0doP3VstgmsNexhutZ9QrAms8T0zYzU5xXM46kcjsmvfvoeL2i
+        AeoUgA07T8yaaZuZKab1rzN74jgys1YB2O2gmBZzH49LODXrrJlnzEzxe9cOLH1ziMioVgCOiuIFX0CE
+        Q+/WYf+yieiCFrRp9tkwxnP7Kt5MbKGm6wfC000KwDlTXNLgEvHMkh+Db32o7fYivtQm1l9+3IBOp5P7
+        yjYPwlKNCsAluWudxgvtknb5t9oWcL/VLU2Mvd2JFq3uqs7vAtE/ceNayiMF4KiYMSjmY2O7B4Ua+NaD
+        YQGEJumRbvyG1IcfBHI12aAAXM8R57aIWTNrLLY4tfNPiCvpR1SeVeu6WWzHFD6THSDwFMDdpmUG62NJ
+        PKM4Or9ZxBxb8H8l7g5CEu8pAOfM3WanSeeS8CFHxW4zM2umbWamOCShXAH+/wNOANABIDUxWnDPAAAA
+        AElFTkSuQmCC
 </value>
   </data>
   <data name="toolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
@@ -1245,21 +1176,21 @@
   <data name="toolStripButton1.Text" xml:space="preserve">
     <value>toolStripButton1</value>
   </data>
-  <metadata name="saveFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="saveFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>490, 17</value>
-  </metadata>
+  </data>
   <data name="saveFileDialog.Filter" xml:space="preserve">
     <value>Hosts files|*</value>
   </data>
   <data name="saveFileDialog.Title" xml:space="preserve">
-    <value>Save Hosts File</value>
+    <value>Hosts 파일 저장</value>
   </data>
-  <metadata name="notifyIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="notifyIcon.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>750, 17</value>
-  </metadata>
-  <metadata name="contextMenuTray.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  </data>
+  <data name="contextMenuTray.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>856, 17</value>
-  </metadata>
+  </data>
   <data name="contextMenuTray.Size" type="System.Drawing.Size, System.Drawing">
     <value>167, 82</value>
   </data>
@@ -2714,7 +2645,7 @@
 </value>
   </data>
   <data name="notifyIcon.Text" xml:space="preserve">
-    <value>Hosts File Editor</value>
+    <value>호스트 파일 에디터</value>
   </data>
   <data name="notifyIcon.Visible" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2723,38 +2654,38 @@
     <value>166, 22</value>
   </data>
   <data name="menuContextEdit.Text" xml:space="preserve">
-    <value>Edit...</value>
+    <value>수정</value>
   </data>
   <data name="menuContextDisable.Size" type="System.Drawing.Size, System.Drawing">
     <value>166, 22</value>
   </data>
   <data name="menuContextDisable.Text" xml:space="preserve">
-    <value>Disable Hosts File</value>
+    <value>호스트 파일 비활성화</value>
   </data>
   <data name="contextMenuExit.Size" type="System.Drawing.Size, System.Drawing">
     <value>166, 22</value>
   </data>
   <data name="contextMenuExit.Text" xml:space="preserve">
-    <value>Exit</value>
+    <value>나가기</value>
   </data>
-  <metadata name="openFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="openFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>192, 56</value>
-  </metadata>
+  </data>
   <data name="openFileDialog.Filter" xml:space="preserve">
     <value>Hosts files|*</value>
   </data>
   <data name="openFileDialog.Title" xml:space="preserve">
-    <value>Import Hosts File</value>
+    <value>Hosts 파일 가져오기</value>
   </data>
-  <metadata name="bindingSourceHostEntries.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="bindingSourceHostEntries.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>619, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="$this.TrayHeight" type="System.Int32, mscorlib">
     <value>101</value>
-  </metadata>
+  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
@@ -4206,7 +4137,7 @@
 </value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Hosts File Editor</value>
+    <value>호스트 파일 에디터</value>
   </data>
   <data name="&gt;&gt;labelLineCount.Name" xml:space="preserve">
     <value>labelLineCount</value>
@@ -4914,7 +4845,7 @@
     <value>166, 22</value>
   </data>
   <data name="openTextEditor.Text" xml:space="preserve">
-    <value>Open &amp;Text Editor</value>
+    <value>텍스트에디터 열기</value>
   </data>
   <data name="&gt;&gt;openTextEditor.Name" xml:space="preserve">
     <value>openTextEditor</value>

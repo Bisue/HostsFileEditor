@@ -24,16 +24,17 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Hosts File Editor")]
+[assembly: AssemblyTitle("호스트 파일 에디터")]
+//[assembly: AssemblyTitle("Hosts File Editor")]
 [assembly: AssemblyDescription(
-    "Hosts File Editor makes it easy to change your hosts file as well as " +
-    "archive multiple versions for easy retrieval. It also includes " +
-    "features to ping IP addresses and enable/disable your hosts file " + 
-    "altogether.")]
+    "호스트 파일 에디터는 윈도우 Hosts 파일을 더욱 쉽게 수정할 수 있도록" +
+    "도와주고, 아카이브를 통해서 Hosts 파일의 버전관리도 가능합니다." + 
+    "또한 Hosts 파일에 등록한 IP로의 핑 테스트 기능과 Hosts 파일 자체를" +
+    "비활성화/활성화 하는 기능도 제공합니다.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("N/A")]
-[assembly: AssemblyProduct("Hosts File Editor")]
-[assembly: AssemblyCopyright("Copyright © Scott Lerch 2011")]
+[assembly: AssemblyProduct("호스트 파일 에디터")]
+[assembly: AssemblyCopyright("Copyright © Scott Lerch 2011, Bisue 2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
