@@ -1,3 +1,5 @@
+# scottlerch/HostsFileEditor의 UI를 한글화
+
 ## Download
 
 Release binaries can be downloaded from [GitHub](https://github.com/scottlerch/HostsFileEditor/releases) or [CodePlex](https://hostsfileeditor.codeplex.com/).
